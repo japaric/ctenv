@@ -1,0 +1,11 @@
+[package]
+name = "foo"
+version = "0.1.0"
+authors = ["Jorge Aparicio <jorge@japaric.io>"]
+edition = "2018"
+
+[dependencies]
+ctenv-macros = { path = "../../macros" }
+
+[build-dependencies]
+ctenv = { path = "../.." }
